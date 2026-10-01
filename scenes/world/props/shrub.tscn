@@ -1,0 +1,91 @@
+[gd_scene format=3 uid="uid://dhqp0dthorg0j"]
+
+[ext_resource type="Texture2D" uid="uid://m0hi6mmtjedf" path="res://art/short_wide_bushy_weeping_shrub-spritesheet/short_wide_bushy_weeping_shrub.png" id="1_t106m"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_14cps"]
+atlas = ExtResource("1_t106m")
+region = Rect2(0, 48, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_s20uw"]
+atlas = ExtResource("1_t106m")
+region = Rect2(48, 48, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qpyc5"]
+atlas = ExtResource("1_t106m")
+region = Rect2(96, 48, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_e1ha6"]
+atlas = ExtResource("1_t106m")
+region = Rect2(144, 48, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_m5mjr"]
+atlas = ExtResource("1_t106m")
+region = Rect2(192, 48, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bkjvc"]
+atlas = ExtResource("1_t106m")
+region = Rect2(240, 48, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bp4da"]
+atlas = ExtResource("1_t106m")
+region = Rect2(288, 48, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vagm1"]
+atlas = ExtResource("1_t106m")
+region = Rect2(336, 48, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8pvje"]
+atlas = ExtResource("1_t106m")
+region = Rect2(384, 48, 48, 48)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_rfkhb"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_14cps")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_s20uw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qpyc5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_e1ha6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_m5mjr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bkjvc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bp4da")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vagm1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8pvje")
+}],
+"loop": 1,
+"name": &"idle",
+"speed": 6.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_rf37b"]
+size = Vector2(16, 7.5)
+
+[node name="shrub" type="StaticBody2D" unique_id=834872693]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=649284905]
+sprite_frames = SubResource("SpriteFrames_rfkhb")
+animation = &"idle"
+autoplay = "idle"
+frame = 8
+frame_progress = 0.09557759
+offset = Vector2(0, -19)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=607425300]
+position = Vector2(0, -3.75)
+shape = SubResource("RectangleShape2D_rf37b")

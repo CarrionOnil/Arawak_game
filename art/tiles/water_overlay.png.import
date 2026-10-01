@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://m0hi6mmtjedf"
-path="res://.godot/imported/short_wide_bushy_weeping_shrub.png-4c92555a9e0a76597277988403d270e0.ctex"
+uid="uid://cior1rpbo5lk8"
+path="res://.godot/imported/water_overlay.png-44473b42a629fa2b57a4333359a44f1f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://short_wide_bushy_weeping_shrub-spritesheet/short_wide_bushy_weeping_shrub.png"
-dest_files=["res://.godot/imported/short_wide_bushy_weeping_shrub.png-4c92555a9e0a76597277988403d270e0.ctex"]
+source_file="res://art/tiles/water_overlay.png"
+dest_files=["res://.godot/imported/water_overlay.png-44473b42a629fa2b57a4333359a44f1f.ctex"]
 
 [params]
 
