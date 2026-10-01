@@ -1,0 +1,46 @@
+{
+  "object": {
+    "id": "6353c184-c3eb-4fca-bf9d-bd5dc2ca632a",
+    "name": "base",
+    "prompt": "large mature weeping tree, strands reaching the ground",
+    "size": {
+      "width": 48,
+      "height": 48
+    },
+    "directions": 1,
+    "view": "low top-down"
+  },
+  "spritesheet": {
+    "path": "large_mature_weeping_tree_str.png",
+    "cell_size": {
+      "width": 48,
+      "height": 48
+    },
+    "sheet_size": {
+      "width": 432,
+      "height": 96
+    },
+    "columns": 9,
+    "pivot": "cell-center",
+    "rows": [
+      {
+        "row": 0,
+        "type": "rotations",
+        "frame_count": 1,
+        "directions": [
+          "unknown"
+        ]
+      },
+      {
+        "row": 1,
+        "type": "animation",
+        "frame_count": 9,
+        "animation": "Seamless looping idle animation. Trunk and roots s",
+        "animation_group_id": "3e9d6f93-f8a4-458b-8f8b-34f8a4c23ddd",
+        "direction": "unknown"
+      }
+    ]
+  },
+  "export_version": "1.0",
+  "export_date": "2026-09-30T06:52:01.355762+00:00"
+}

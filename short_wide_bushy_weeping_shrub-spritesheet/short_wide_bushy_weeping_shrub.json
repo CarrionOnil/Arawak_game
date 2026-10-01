@@ -1,0 +1,46 @@
+{
+  "object": {
+    "id": "acf3d098-dd04-49ba-b8c6-154b15d4fa57",
+    "name": "base",
+    "prompt": "short wide bushy weeping shrub",
+    "size": {
+      "width": 48,
+      "height": 48
+    },
+    "directions": 1,
+    "view": "low top-down"
+  },
+  "spritesheet": {
+    "path": "short_wide_bushy_weeping_shrub.png",
+    "cell_size": {
+      "width": 48,
+      "height": 48
+    },
+    "sheet_size": {
+      "width": 432,
+      "height": 96
+    },
+    "columns": 9,
+    "pivot": "cell-center",
+    "rows": [
+      {
+        "row": 0,
+        "type": "rotations",
+        "frame_count": 1,
+        "directions": [
+          "unknown"
+        ]
+      },
+      {
+        "row": 1,
+        "type": "animation",
+        "frame_count": 9,
+        "animation": "Seamless looping idle animation. Trunk and roots s",
+        "animation_group_id": "b6890070-af28-4234-a5b9-f5fab1279d6a",
+        "direction": "unknown"
+      }
+    ]
+  },
+  "export_version": "1.0",
+  "export_date": "2026-09-30T06:50:41.268697+00:00"
+}
